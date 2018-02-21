@@ -31,12 +31,10 @@ Smooch.init({
     customText: {
         headerText: 'سلام. چطور می‌تونم کمکتون کنم؟',
         inputPlaceholder: 'پیام خودتون رو بنویسید ...',
-        sendButtonText: 'ارسال',
-        embedded: true
+        sendButtonText: 'ارسال'
     }
 }).then(function() {
     // Your code after init is complete
-    Smooch.render(document.getElementById('chat-container'));
 });
 
 
